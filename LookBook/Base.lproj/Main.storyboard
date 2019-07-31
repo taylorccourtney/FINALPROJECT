@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96425586938858032" green="0.96651118993759155" blue="0.87916582822799683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97720175981521606" green="0.93717026710510254" blue="0.92545336484909058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -76,7 +76,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Casual">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="bng-MC-3GY" kind="show" id="dV4-dc-HZY"/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96425586938858032" green="0.96651118993759155" blue="0.87916582822799683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97720175981521606" green="0.93717026710510254" blue="0.92545336484909058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="uRI-dN-fzd"/>
                     </view>
                 </viewController>
@@ -155,15 +155,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ct3-Jh-m6L">
-                                <rect key="frame" x="192" y="316" width="30" height="30"/>
+                                <rect key="frame" x="191" y="310" width="50" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                 <state key="normal" title="🚶‍♂️"/>
                                 <connections>
                                     <action selector="showMessage:" destination="bng-MC-3GY" eventType="touchUpInside" id="BRH-46-h0b"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96425586938858032" green="0.96651118993759155" blue="0.87916582822799683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97628003358840942" green="0.94647544622421265" blue="0.9301263689994812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0Ew-bp-ENl"/>
                     </view>
                 </viewController>
@@ -207,7 +208,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="IBw-lW-qhs"/>
                     </view>
                 </viewController>
@@ -218,7 +219,7 @@
         <!--View Controller-->
         <scene sceneID="8Lz-p0-bBR">
             <objects>
-                <viewController id="0Eb-fH-JGs" sceneMemberID="viewController">
+                <viewController id="0Eb-fH-JGs" customClass="ViewController" customModule="LookBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hzt-jY-Jyp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -238,7 +239,7 @@
                                 <state key="normal" title="🚶‍♀️"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4RC-SO-4oi"/>
                     </view>
                 </viewController>
@@ -249,7 +250,7 @@
         <!--View Controller-->
         <scene sceneID="Ki6-fO-iQl">
             <objects>
-                <viewController id="ust-UO-AbE" sceneMemberID="viewController">
+                <viewController id="ust-UO-AbE" customClass="ViewController" customModule="LookBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jRN-In-elR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +270,7 @@
                                 <state key="normal" title="💃"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="1QZ-4H-6oY"/>
                     </view>
                 </viewController>
@@ -280,7 +281,7 @@
         <!--View Controller-->
         <scene sceneID="kMg-3Y-n6k">
             <objects>
-                <viewController id="2D7-zt-YGq" sceneMemberID="viewController">
+                <viewController id="2D7-zt-YGq" customClass="ViewController" customModule="LookBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yYE-8Y-9Ue">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,7 +301,7 @@
                                 <state key="normal" title="🏃‍♀️"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="f7i-nV-Xs7"/>
                     </view>
                 </viewController>
@@ -344,7 +345,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96425586938858032" green="0.96651118993759155" blue="0.87916582822799683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oj9-pC-MdH"/>
                     </view>
                 </viewController>
@@ -388,7 +389,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96425586938858032" green="0.96651118993759155" blue="0.87916582822799683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.97720175981521606" green="0.93717026710510254" blue="0.92545336484909058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="XGJ-z3-aCg"/>
                     </view>
                 </viewController>

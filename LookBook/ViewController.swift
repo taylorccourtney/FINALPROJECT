@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     let emojis = ["🚶‍♂️" : "casual", "🕺" : "formal", "🏃‍♂️" : "athletic", "🚶‍♀️" : "fcasual", "💃" : "fformal", "🏃‍♀️" : "fathletic"]
     
-    let customMessages = ["casual":["outfit 1","outfit 2","outfit 3"],"formal":["choice 1", "choice 2", "choice 3"], "athletic":["clothes 1", "clothes 2", "clothes 3"] ]
+    let customMessages = ["casual":["You can never go wrong with some jeans and a plaid button up","Black/White tee goes with everything","All black outfit with colored snerakers"],"formal":["Fitted Blazers make any outfit fancy", "Button up shirts and black pants are always acceptable", "Doyou have a collard shirt? If so throw on some jeans with that"], "athletic":["Sweatpants are a staple", "Muscle T-shirts allow for good ventilation", "You don't have to play basketball to wear basketball shorts to work out."]]
     
     
     
