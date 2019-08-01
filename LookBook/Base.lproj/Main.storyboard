@@ -89,6 +89,24 @@
             </objects>
             <point key="canvasLocation" x="721.73913043478262" y="608.70535714285711"/>
         </scene>
+        <!--Photo Detail View Controller-->
+        <scene sceneID="LNl-2X-etl">
+            <objects>
+                <viewController id="ZZE-5f-4k3" customClass="PhotoDetailViewController" customModule="LookBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xhw-zs-kNK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XfE-GA-KWh"/>
+                    </view>
+                    <connections>
+                        <segue destination="8BI-ZW-nYt" kind="show" identifier="detailSegue" id="11c-aq-SKF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCL-aD-DZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="1515"/>
+        </scene>
         <!--Add New Photo-->
         <scene sceneID="SFL-Z4-JPF">
             <objects>
@@ -102,6 +120,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraTappedWith_sender:" destination="nkc-Tt-Y4g" eventType="touchUpInside" id="xNK-tc-8KT"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="outfit" translatesAutoresizingMaskIntoConstraints="NO" id="nCU-ou-YiJ">
                                 <rect key="frame" x="27" y="161" width="360" height="306"/>
@@ -112,12 +133,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savePhotoTappedWith_sender:" destination="nkc-Tt-Y4g" eventType="touchUpInside" id="X6D-fK-3KS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqo-oF-LNf">
                                 <rect key="frame" x="173" y="626" width="194" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="photoLibraryTappedWith_sender:" destination="nkc-Tt-Y4g" eventType="touchUpInside" id="WSg-Qw-OsW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -350,5 +377,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tyt-Yq-BoC"/>
+        <segue reference="Hf6-Te-F7x"/>
     </inferredMetricsTieBreakers>
 </document>
