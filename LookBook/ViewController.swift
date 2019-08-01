@@ -42,6 +42,36 @@ class ViewController: UIViewController {
     }
     
     
+    @IBOutlet var formalRandom: UILabel!
+    @IBOutlet var formalImage: UIImageView!
+    
+    let imageformalNames = ["fone", "ftwo", "fthree", "ffour"]
+    
+    
+    @IBAction func formalshowWord(_ sender: UIButton) {
+        
+        let array = ["dresses can be easy to wear", "button up shirts and pants are great"]
+        
+        let RandomWord = Int(arc4random_uniform(UInt32(array.count)))
+        randomWord.text = array[RandomWord]
+        
+        
+    }
+    
+    
+    @IBAction func formalshowImage(_ sender: Any) {
+        
+        let leftNumber: Int = Int(arc4random_uniform(4))
+        imageOne.image = UIImage(named: imageformalNames[leftNumber])
+        
+        let rightNumber: Int = Int(arc4random_uniform(4))
+        imageTwo.image = UIImage(named:imageformalNames[rightNumber])
+        
+        
+    }
+    
+    
+    
     
     
     

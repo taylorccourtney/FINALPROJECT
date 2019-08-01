@@ -331,31 +331,48 @@
                                     <segue destination="uSA-U7-9KU" kind="show" id="Trd-hs-kcu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvs-du-AVP">
-                                <rect key="frame" x="30" y="120" width="355" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zq7-0T-Rm5">
+                                <rect key="frame" x="176" y="83" width="62" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="47"/>
-                                <state key="normal" title="Randomize an outfit">
-                                    <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REU-3g-Qtg">
-                                <rect key="frame" x="153" y="313" width="108" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <state key="normal" title="🕺"/>
                                 <connections>
-                                    <action selector="showMessage:" destination="BBy-z0-SOV" eventType="touchUpInside" id="3Kz-T8-2SC"/>
+                                    <action selector="formalshowWord:" destination="BBy-z0-SOV" eventType="touchUpInside" id="eJb-DA-rDR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCL-Vz-b6u">
+                                <rect key="frame" x="44" y="285" width="326" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Randomize an Outfit"/>
+                                <connections>
+                                    <action selector="formalshowImage:" destination="BBy-z0-SOV" eventType="touchUpInside" id="lE2-Ed-e5n"/>
+                                    <action selector="formalshowWord:" destination="BBy-z0-SOV" eventType="touchUpInside" id="SOK-mO-EPa"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uP-F6-FLu">
+                                <rect key="frame" x="66" y="396" width="283" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-0O-DeN">
+                                <rect key="frame" x="176" y="205" width="62" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98117107152938843" green="0.9521300196647644" blue="0.9399762749671936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="oj9-pC-MdH"/>
                     </view>
+                    <connections>
+                        <outlet property="formalImage" destination="7uP-F6-FLu" id="vB2-Q5-zdf"/>
+                        <outlet property="formalRandom" destination="E3l-0O-DeN" id="Z8d-EI-2xS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LdT-RC-5DP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3706" y="-734"/>
+            <point key="canvasLocation" x="3705.7971014492755" y="-734.59821428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Gj-HC-w4f">
@@ -424,6 +441,6 @@
         <image name="outfit" width="120" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WJ6-VE-RV0"/>
+        <segue reference="Trd-hs-kcu"/>
     </inferredMetricsTieBreakers>
 </document>
