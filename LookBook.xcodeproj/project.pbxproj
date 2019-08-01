@@ -13,6 +13,8 @@
 		1871E0D722F1D817007B30C6 /* LookBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1871E0D522F1D817007B30C6 /* LookBook.xcdatamodeld */; };
 		1871E0D922F1D81D007B30C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871E0D822F1D81D007B30C6 /* Assets.xcassets */; };
 		1871E0DC22F1D81D007B30C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1871E0DA22F1D81D007B30C6 /* LaunchScreen.storyboard */; };
+		18A1D5C922F31BD500F0D759 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D5C822F31BD500F0D759 /* AddPhotoViewController.swift */; };
+		18A1D5CB22F32BFD00F0D759 /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D5CA22F32BFD00F0D759 /* PhotoTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1871E0D822F1D81D007B30C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1871E0DB22F1D81D007B30C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1871E0DD22F1D81D007B30C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A1D5C822F31BD500F0D759 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18A1D5CA22F32BFD00F0D759 /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1871E0CE22F1D817007B30C6 /* AppDelegate.swift */,
 				1871E0D022F1D817007B30C6 /* ViewController.swift */,
 				1871E0D222F1D817007B30C6 /* Main.storyboard */,
+				18A1D5CA22F32BFD00F0D759 /* PhotoTableTableViewController.swift */,
+				18A1D5C822F31BD500F0D759 /* AddPhotoViewController.swift */,
 				1871E0D822F1D81D007B30C6 /* Assets.xcassets */,
 				1871E0DA22F1D81D007B30C6 /* LaunchScreen.storyboard */,
 				1871E0DD22F1D81D007B30C6 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1871E0D122F1D817007B30C6 /* ViewController.swift in Sources */,
+				18A1D5C922F31BD500F0D759 /* AddPhotoViewController.swift in Sources */,
+				18A1D5CB22F32BFD00F0D759 /* PhotoTableTableViewController.swift in Sources */,
 				1871E0D722F1D817007B30C6 /* LookBook.xcdatamodeld in Sources */,
 				1871E0CF22F1D817007B30C6 /* AppDelegate.swift in Sources */,
 			);
