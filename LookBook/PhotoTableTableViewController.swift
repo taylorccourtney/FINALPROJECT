@@ -39,8 +39,15 @@ class PhotoTableTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = UITableViewCell()
-        cell.textLabel?.text = "Personal Closet"
-        cell.imageView?.image = UIImage(named : "closet")
+        let cellPhoto = photos[indexPath.row]
+        cell.textLabel?.text = cellPhoto.caption
+        if let cellPhotoImageData = cellPhoto.imageData{
+            if let cellPhotoImage = UIImage(data: cellPhotoImageData){
+                cell.imageView?.image = cellPhotoImage
+            }
+        }
+//        cell.textLabel?.text = "Personal Closet"
+//        cell.imageView?.image = UIImage(named : "closet")
 
         return cell
     }
@@ -50,7 +57,7 @@ class PhotoTableTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "detailsegue" {
+        if segue.identifier == "detailSegue" {
             if let photoDetail = segue.destination as? PhotoDetailViewController {
                 if let photoToSend = sender as? Photos {
                     photoDetail.photo = photoToSend

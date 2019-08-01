@@ -10,9 +10,12 @@ import UIKit
 
 class PhotoDetailViewController: UIViewController {
 
-    @IBOutlet weak var photoDetailTwo : UIImageView!
+
+    
     
     var photo : Photos? = nil
+    
+    @IBOutlet weak var photoDetailTwo: UIImageView!
     
     
     
