@@ -15,60 +15,60 @@ class ViewController: UIViewController {
     @IBOutlet var imageOne: UIImageView!
     @IBOutlet var imageTwo: UIImageView!
     
-    let imageNames = ["caone", "catwo", "cathree", "cafour", "cafive"]
+    let imageNames = ["caone", "catwo", "cathree", "cafour", "cafive","casualjeans", "jeans", "pants","sweat", "gshirt"]
     
     
    
     @IBAction func showWord(_ sender: UIButton) {
         
-        let array = ["Don't be afraid to play with color!", "You can pair anything with jeans", "white goes with everything", "oh! black is everything!"]
+        let array = ["Don't be afraid to play with color!", "You can pair anything with jeans", "white goes with everything", "oh! black is everything!", "Accesorize with bright colors", "Embrace your shape", "Layer your necklaces", "When in doubt wear nude shoes", "Pair loose with tight", "Dress for your body,not anyone elses", "Knot a button down shirt to show your waist", "Cuff your jeans", "Stack your rings", "When wearing boots, wear socks that peak out"]
         let RandomWordGen = Int(arc4random_uniform(UInt32(array.count)))
         randomWord.text = array[RandomWordGen]
         
     }
     
-    
-    @IBAction func showImage(_ sender: Any) {
-        
-        let leftNumber:Int = Int(arc4random_uniform(5))
-        
-        imageOne.image = UIImage(named:imageNames[leftNumber])
-        
-        let rightNumber: Int = Int(arc4random_uniform(5))
-        
-        imageTwo.image = UIImage(named:imageNames[rightNumber])
-        
-        
-    }
-    
-    
-    @IBOutlet var formalRandom: UILabel!
-    @IBOutlet var formalImage: UIImageView!
-    
-    let imageformalNames = ["fone", "ftwo", "fthree", "ffour"]
-    
-    
-    @IBAction func formalshowWord(_ sender: UIButton) {
-        
-        let array = ["dresses can be easy to wear", "button up shirts and pants are great"]
-        
-        let RandomWord = Int(arc4random_uniform(UInt32(array.count)))
-        randomWord.text = array[RandomWord]
-        
-        
-    }
-    
-    
-    @IBAction func formalshowImage(_ sender: Any) {
-        
-        let leftNumber: Int = Int(arc4random_uniform(4))
-        imageOne.image = UIImage(named: imageformalNames[leftNumber])
-        
-        let rightNumber: Int = Int(arc4random_uniform(4))
-        imageTwo.image = UIImage(named:imageformalNames[rightNumber])
-        
-        
-    }
+
+      @IBAction func showImage(_ sender: Any) {
+
+      let leftNumber:Int = Int(arc4random_uniform(5))
+
+       imageOne.image = UIImage(named:imageNames[leftNumber])
+
+       let rightNumber: Int = Int(arc4random_uniform(5))
+
+       imageTwo.image = UIImage(named:imageNames[rightNumber])
+
+
+   }
+//
+//
+//    @IBOutlet var formalRandom: UILabel!
+//    @IBOutlet var formalImage: UIImageView!
+//
+//    let imageformalNames = ["fone", "ftwo", "fthree", "ffour"]
+//
+//
+//    @IBAction func formalshowWord(_ sender: UIButton) {
+//
+//        let array = ["dresses can be easy to wear", "button up shirts and pants are great"]
+//
+//        let RandomWord = Int(arc4random_uniform(UInt32(array.count)))
+//        randomWord.text = array[RandomWord]
+//
+//
+//    }
+//
+//
+//    @IBAction func formalshowImage(_ sender: Any) {
+//
+//        let leftNumber: Int = Int(arc4random_uniform(4))
+//        imageOne.image = UIImage(named: imageformalNames[leftNumber])
+//
+//        let rightNumber: Int = Int(arc4random_uniform(4))
+//        imageTwo.image = UIImage(named:imageformalNames[rightNumber])
+//
+//
+//    }
     
     
     
