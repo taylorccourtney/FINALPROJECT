@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Playlist Script.otf">
+            <string>Playlist-Script</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -28,7 +33,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cX-bz-xuL">
                                 <rect key="frame" x="43" y="392" width="329" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="80"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="80"/>
                                 <state key="normal" title="LookBook">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -37,9 +42,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66v-Z3-qtT">
-                                <rect key="frame" x="87" y="512" width="243" height="69"/>
+                                <rect key="frame" x="95" y="507" width="229" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="45"/>
                                 <state key="normal" title="Save an Outfit">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -127,9 +132,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZy-bu-M97">
-                                <rect key="frame" x="135" y="554" width="145" height="76"/>
+                                <rect key="frame" x="144" y="549" width="128" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="50"/>
                                 <state key="normal" title="Camera">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -138,9 +143,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqo-oF-LNf">
-                                <rect key="frame" x="83" y="655" width="271" height="76"/>
+                                <rect key="frame" x="93" y="650" width="253" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="50"/>
                                 <state key="normal" title="Photo Library">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -153,9 +158,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8l-vz-fFb">
-                                <rect key="frame" x="163" y="749" width="89" height="76"/>
+                                <rect key="frame" x="166" y="744" width="84" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="50"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -196,16 +201,16 @@
                                 <rect key="frame" x="149" y="832" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Select New Style">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.028078071959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.50689980977128068" green="0.13745964915135392" blue="0.51780749041167518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="110-ct-dRF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1g2-cq-Gzj">
-                                <rect key="frame" x="37" y="343" width="340" height="210"/>
+                                <rect key="frame" x="20" y="343" width="374" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="83"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="83"/>
                                 <state key="normal" title="Casual">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -234,7 +239,7 @@
                                 <rect key="frame" x="137" y="832" width="140" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Select new category">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.028078071959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.50689980980000005" green="0.13745964920000001" blue="0.51780749039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="uSA-U7-9KU" kind="show" id="WJ6-VE-RV0"/>
@@ -246,9 +251,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ct3-Jh-m6L">
-                                <rect key="frame" x="158" y="61" width="98" height="63"/>
+                                <rect key="frame" x="158" y="51" width="98" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="40"/>
                                 <state key="normal" title="Tips!">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -272,9 +277,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TP3-kg-c8i">
-                                <rect key="frame" x="54" y="194" width="313" height="63"/>
+                                <rect key="frame" x="67" y="190" width="289" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Playlist-Script" family="Playlist" pointSize="40"/>
                                 <state key="normal" title="Randomize an outfit ">
                                     <color key="titleColor" red="0.42156513709999999" green="0.31947180450000001" blue="0.60877274349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -283,7 +288,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKA-sc-f6x">
-                                <rect key="frame" x="20" y="113" width="374" height="81"/>
+                                <rect key="frame" x="0.0" y="103" width="414" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
@@ -326,6 +331,6 @@
         <image name="outfit" width="120" height="120"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tyt-Yq-BoC"/>
+        <segue reference="WJ6-VE-RV0"/>
     </inferredMetricsTieBreakers>
 </document>

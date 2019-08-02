@@ -21,7 +21,7 @@ class ViewController: UIViewController {
    
     @IBAction func showWord(_ sender: UIButton) {
         
-        let array = ["Don't be afraid to play with color!", "You can pair anything with jeans", "white goes with everything", "oh! black is everything!", "Accesorize with bright colors", "Embrace your shape", "Layer your necklaces", "When in doubt wear nude shoes", "Pair loose with tight", "Dress for your body,not anyone elses", "Knot a button down shirt to show your waist", "Cuff your jeans", "Stack your rings", "When wearing boots, wear socks that peak out"]
+        let array = ["Don't be afraid to play with color!", "You can pair anything with jeans", "White goes with everything", "Black is easy to style!", "Accesorize with bright colors", "Embrace your shape", "Layer your necklaces", "When in doubt wear nude shoes", "Pair loose with tight", "Dress for your body!", "Knot a button down shirt", "Cuff your jeans", "Stack your rings", "Wear high socks with boots"]
         let RandomWordGen = Int(arc4random_uniform(UInt32(array.count)))
         randomWord.text = array[RandomWordGen]
         

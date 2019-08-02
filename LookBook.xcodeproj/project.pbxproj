@@ -16,6 +16,7 @@
 		18A1D5C922F31BD500F0D759 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D5C822F31BD500F0D759 /* AddPhotoViewController.swift */; };
 		18A1D5CB22F32BFD00F0D759 /* PhotoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D5CA22F32BFD00F0D759 /* PhotoTableTableViewController.swift */; };
 		18A1D5CD22F339E400F0D759 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D5CC22F339E400F0D759 /* PhotoDetailViewController.swift */; };
+		18F4AB0022F481C600CA962C /* Playlist Script.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18F4AAFF22F481C600CA962C /* Playlist Script.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18A1D5C822F31BD500F0D759 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		18A1D5CA22F32BFD00F0D759 /* PhotoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableTableViewController.swift; sourceTree = "<group>"; };
 		18A1D5CC22F339E400F0D759 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		18F4AAFF22F481C600CA962C /* Playlist Script.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Playlist Script.otf"; path = "../../../../Playlist Script.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				18A1D5CC22F339E400F0D759 /* PhotoDetailViewController.swift */,
 				1871E0D822F1D81D007B30C6 /* Assets.xcassets */,
 				1871E0DA22F1D81D007B30C6 /* LaunchScreen.storyboard */,
+				18F4AAFF22F481C600CA962C /* Playlist Script.otf */,
 				1871E0DD22F1D81D007B30C6 /* Info.plist */,
 				1871E0D522F1D817007B30C6 /* LookBook.xcdatamodeld */,
 			);
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1871E0DC22F1D81D007B30C6 /* LaunchScreen.storyboard in Resources */,
+				18F4AB0022F481C600CA962C /* Playlist Script.otf in Resources */,
 				1871E0D922F1D81D007B30C6 /* Assets.xcassets in Resources */,
 				1871E0D422F1D817007B30C6 /* Main.storyboard in Resources */,
 			);
